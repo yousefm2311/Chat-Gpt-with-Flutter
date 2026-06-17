@@ -1,16 +1,54 @@
-# chatgpt_app
+# ChatGPT With Flutter
 
-A new Flutter project.
+A Flutter chat application concept focused on AI-style conversational UI and API-backed message flows.
+
+## Status
+
+Public learning project.
+
+## Features
+
+- Chat-style mobile interface
+- Prompt/message workflow foundation
+- API integration-ready structure
+- Clean Flutter project layout
+
+## Tech Stack
+
+- Flutter
+- Dart
+- REST API integration
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+git clone https://github.com/yousefm2311/Chat-Gpt-with-Flutter.git
+cd Chat-Gpt-with-Flutter
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Environment Variables
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Create local configuration only when connecting to an AI/API provider.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```env
+API_BASE_URL=
+API_KEY=
+```
+
+Never commit real API keys or production credentials.
+
+## Screenshots
+
+Add chat screenshots before sharing this repository.
+
+```md
+![Chat screen](docs/screenshots/chat.png)
+```
+
+## Author
+
+Yousef Mohamed
+
+- GitHub: https://github.com/yousefm2311
